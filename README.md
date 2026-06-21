@@ -3,9 +3,12 @@ Análise e Classificação de Distúrbios de Qualidade de Energia via RMS e THD 
 qualidade-energia-rms-thd
 │
 ├── Codigo_MATLAB
+
 │      classificacao_disturbios.m
-│add file
-upload file
+
+│https://matlab.mathworks.com/?elqsid=a3j53al9d018rtp4ljdw
+
+[Codigo MATLAB.txt](https://github.com/user-attachments/files/29184943/Codigo.MATLAB.txt)
 clc;
 clear;
 close all;
@@ -249,21 +252,20 @@ function classe = classificarSinal(rms_val, thd_val, tvt_val, sinal)
         classe = "Normal";
     end
 
+end
+
+
+
+
 endloading analise_e_comparacao_da_qualidade_de_energia_graficos_tabelas.m…]()
 
 ├── Graficos
-│      Sag.png
-│      Swell.png
-│      Harmonica.png
-│      FFT.png
-│      Comparacao_RMS.png
-│      Comparacao_TVT.png
-│      Matriz_Confusao.png
+│      
+<img width="283" height="220" alt="Sinal Normal" src="https://github.com/user-attachments/assets/2a5297c1-3b4e-46ba-b082-77edaa91a05f" />
 │
 ├── Imagens_Experimentais
-│      Ambiente_Industrial.jpg
-│      Osciloscopio.jpg
-│      Banco_Capacitores.jpg
+│      
+<img width="1600" height="1200" alt="Tranformador" src="https://github.com/user-attachments/assets/1e7c07ec-4840-41c1-b28e-f6754dc58d0a" />
 │
 ├── Artigo
 │      TCC_Qualidade_Energia.pdf
